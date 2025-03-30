@@ -1,0 +1,8 @@
+{
+    "name": "node-api",
+    "version": "1.0.0",
+    "dependencies": {
+      "@aws-sdk/client-dynamodb": "^3.398.0",
+      "@aws-sdk/util-dynamodb": "^3.398.0"
+    }
+  }

@@ -42,5 +42,13 @@ functions:
         - 'handlerPost.js'
         - '!handlerGet.js'
 
+iamRoleStatements:
+  - Effect: Allow
+    Action:
+      - dynamodb:GetItem
+      - dynamodb:PutItem
+    Resource: "arn:aws:dynamodb:us-east-1:638417785527:table/sls-users"
+
+
 
 
